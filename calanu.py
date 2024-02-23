@@ -85,6 +85,7 @@ while True:
                 result = squareroot(num1)
                 print(f"Square root of {num1} is", result)
             else:
+                
                 result, result2 = squareroot(num1, num2)
                 print(f"Square root of {num1} is", result)
                 print(f"Square root of {num2} is", result2)
