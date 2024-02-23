@@ -37,6 +37,7 @@ previous_answer = None
 
 print("Selection operator")
 while True:
+    
     # Take input from the user
     
    # print("pi value is",math.pi)
@@ -87,9 +88,7 @@ while True:
                 result, result2 = squareroot(num1, num2)
                 print(f"Square root of {num1} is", result)
                 print(f"Square root of {num2} is", result2)
-
         previous_answer = result
-
     else:
         print("enter a valid Operator [+, -, *, /, **, %, ^]")
 
@@ -106,3 +105,4 @@ while True:
     if next_calculation == "no":
         print("Exiting the program.")
         break
+    
