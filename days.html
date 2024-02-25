@@ -28,7 +28,7 @@
     <script>
         function checkDay() {
             const newday = document.getElementById('day').value;
-            fetch('/check_day', {
+            fetch('./check_day', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
