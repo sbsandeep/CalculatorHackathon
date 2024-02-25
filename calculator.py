@@ -57,10 +57,4 @@ while True:
     repeat = input("Do you want to repeat this process? (Yes/No): ")
     if repeat.lower() != "yes":
         print("Thank you for using this calculator.")
-        break
- 
- 
-    
-      
-    
-  
+        break  
